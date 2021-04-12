@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  nav {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        margin-right: 20px;
+        list-style: none;
+      }
+    }
+    input {
+      border-radius: 5px;
+      border-color: #2f2f2f;
+      padding: 4px;
+      min-width: 150px;
+    }
+  }
+}

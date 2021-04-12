@@ -1,0 +1,32 @@
+article {
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+  overflow: hidden;
+  margin-top: 10px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  div {
+    padding: 3px;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h5 {
+        background-color: #000;
+        color: #fff;
+        line-height: 30px;
+        padding: 0px 5px;
+      }
+    }
+    h4 {
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
